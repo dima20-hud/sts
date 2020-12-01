@@ -1,6 +1,6 @@
 function js2_f11()
 {
-document.getElementById("pic1").src="Вуди";
+document.getElementById("pic1").src="Вуди.ipj";
 document.getElementById("body1").style.backgroundColor="blue";
 document.getElementById("body1").style.backgroundColor="yellow";
 } 
