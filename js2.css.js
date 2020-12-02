@@ -6,7 +6,7 @@ document.getElementById("body1").style.backgroundColor="yellow";
 } 
 function js2_f12()
 {
-if(document.getElementById("sl1").'selectedIndex'=0)
+if(document.getElementById("sl1");selectedIndex=0)
 document.getElementById("body1").style.backgroundColor="green";
  
 if(document.getElementById("sl2").'selectedIndex=1)
