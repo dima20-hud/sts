@@ -50,13 +50,10 @@
     clear: both; /* Отмена обтекания */ 
    }
   </style>
-  <script>  
- var today= new Date();  
- function f(x)    
-{document.getElementById('tt1').value=document.getElementById('tt1').value+x;   }    
+  <script>      
 
 function g(x)    
-{var t=parseInt(document.getElementById('tt1').value);
+{var t=parseInt(document.getElementById('tt1').value+x);
 if(x==1) today.setYear(); 
 if(x==2) today.setMonth();
 if(x==3) today.setDate(13);
@@ -64,7 +61,7 @@ if(x==3) today.setDate(13);
 document.getElementById('tt1').value="";     }
 
 function ff()    
-{document.getElementById('tt2').value=today;    }   
+{document.getElementById('tt2').value=;    }   
 </script> 
  
  </head>
