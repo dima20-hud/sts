@@ -20,3 +20,15 @@ function js2_f13()
 document.getElementById("area1").value="Привет, Мир!!!";
  
 }
+input#radio_1:checked ~ #select_1{
+  opacity: 0.5;
+}
+input#radio_2:checked ~ #select_2{
+  opacity: 0.5;
+}
+input#radio_3:checked ~ #select_3{
+  opacity: 0.5;
+}
+input#radio_4:checked ~ #select_4{
+  opacity: 0.5;
+}
