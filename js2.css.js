@@ -17,7 +17,7 @@ document.getElementById("body1").style.backgroundColor="pink";
 }
 function js2_f13()
 {
-document.getElementById("areal1").value="Привет, Мир!!!";
+document.getElementById("area1").value="Привет, Мир!!!";
  
 }
 input#radio_1:checked ~ #select_1{
