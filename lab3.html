@@ -57,9 +57,10 @@
 
 function g(x)    
 {var t=parseInt(document.getElementById('tt1').value);
-if(x==1) today.setYear(t); 
-if(x==2) today.setMonth(t);
-if(x==3) today.setDate(t);   
+if(x==1) today.setYear(); 
+if(x==2) today.setMonth();
+if(x==3) today.setDate(13);
+ if(x==3) today.getDate(5);
 document.getElementById('tt1').value="";     }
 
 function ff()    
