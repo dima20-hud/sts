@@ -1,0 +1,28 @@
+<!doctype html>
+<html> 
+<head> 
+<title>пример 3</title> 
+<script src="js2.css">
+</script>
+</head> 
+<body onload="alert('поздравляем!!!')" id=”body1”>
+<p>
+3. Создать группу радиокнопок, с помощью которой можно сменить некоторую картинку на картину с мастью карты, 
+которая указана в качестве подписи соответствующей радиокнопки (создайте четыре варианта выбора).
+Создайте обработку события формы onreset появлением строки «ПРИВЕТ,МИР» в одностроковом поле ввода информации данной формы.
+
+</p>
+ <img name="img" src="p1.jpg">
+<label>Tom&Jerry<input type="radio" onclick="javascript:img.src='3.jpg'">
+<label>Disney<input type="radio" onclick="javascript:img.src='2.jpg'">
+<label>G<input type="radio" onclick="javascript:img.src='загрузка.jpg'">
+<label>Woody<input type="radio" onclick="javascript:img.src='Вуди.jpg'"></label>  
+<p>
+<img src="Вуди" alt="Вуди" id="pic1" onmouseover="js2_f13()">
+<textarea name=address rows=5 cols=50 id="area1"> 
+а здесь - ваш адрес...
+</textarea>
+<input type="button" value="запустить обработчик" onclick="js1_f12()"> 
+</form> 
+</body> 
+</html> 
