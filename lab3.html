@@ -50,19 +50,22 @@
     clear: both; /* Отмена обтекания */ 
    }
   </style>
-  <script>      
+  <script>  
+ var today= new Date();  
+ function f(x)    
+{document.getElementById('tt1').value=document.getElementById('tt1').value+x;   }    
 
 function g(x)    
-{var t=parseInt(document.getElementById('tt1').value+x);
-if(x==1) today.setYear(); 
-if(x==2) today.setMonth();
-if(x==3) today.setDate(13);
- if(x==4) today.getDate(5);
-document.getElementById('tt1').value="";     }
+{var t=parseInt(document.getElementById('tt1').value);
+if(x==1) today.setYear(t); 
+if(x==2) today.setMonth(t);
+if(x==3) today.setDate(t);   
+document.getElementById('tt1').value="";     }   
 
 function ff()    
-{document.getElementById('tt2').value=;    }   
-</script> 
+{document.getElementById('tt2').value=today;    }  
+</script>  
+
  
  </head>
  <body>
