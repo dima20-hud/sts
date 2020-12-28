@@ -51,7 +51,7 @@
    }
   </style>
   <script>  
-  var today= new Date();  
+ var today= new Date();  
  function f(x)    
 {document.getElementById('tt1').value=document.getElementById('tt1').value+x;   }    
 
@@ -60,11 +60,12 @@ function g(x)
 if(x==1) today.setYear(t); 
 if(x==2) today.setMonth(t);
 if(x==3) today.setDate(t);   
-document.getElementById('tt1').value="";     }
+document.getElementById('tt1').value="";     }  
+
 function ff()    
-{document.getElementById('tt1').value="today";    }  
-  
+{document.getElementById('tt2').value=today;    } 
 </script>  
+
 
  
  </head>
@@ -74,7 +75,7 @@ function ff()
    <div id="content">
     
     <h2>Лабораторна робота №3 JavaScript</h2>
-  <form action="" method="get"> 
+ <form action="" method="get"> 
 <table border=”1”> 
 
 <tr><td>Введення</td><td colspan="2"><input type="text" name="tx1" id="tt1" value=""></td></tr> 
